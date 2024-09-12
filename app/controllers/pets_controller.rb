@@ -3,4 +3,8 @@ class PetsController < ApplicationController
     @pets = Pet.all
     render :index
   end
+
+  def create
+    
+  end
 end
